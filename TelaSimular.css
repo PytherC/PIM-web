@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body { min-height: 100vh; }
+
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#1b86dd), to(#034086)) no-repeat;
+    background: -moz-linear-gradient(left, #CCCCCC, #000000);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
+
+    
+}
+#menu-h ul li{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-h ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-h ul li:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.Familia{
+    position: absolute;
+    transform: translateY(200px);
+    right: 48%;
+}
+
+.Segurodevida{
+
+    position: absolute;
+    right: 53%;
+    transform: translateY(100px);
+    color: rgb(0, 0, 0);
+
+}
+
+.Ola{
+    position: absolute;
+    right: 86%;
+    background-color: rgb(104, 149, 207);
+    color:rgb(104, 149, 207);
+    width: 7px;
+    height: 25px;
+    border-radius: 1px;
+    transform: translateY(103px);
+}
+
+form{
+    position: absolute;
+    transform: translateY(140px);
+    right: 10%;
+}
+
+input{
+    background-color: #e6e8ea;
+    border-radius: 4px;
+    border: #ffffff;
+    width: 350px;
+    height: 35px;
+    padding: 6px;
+}
+
+input[type="submit"]{
+    background-color: #1b86dd;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(20px);
+}
+
+input[type="radio"]{
+    background-color: #1b86dd;
+    height: 12px;
+    width: 20px;
+}
+
+.container{
+    position: absolute;
+    transform: translateY(-580px);
+    right: -14%;
+    z-index: -1;
+    background-color: #d1d2d2;
+    color: #a9adb0;
+    border-radius: 3px;
+    width: 450px;
+    height: 630px;
+}
+
+footer {
+    position: absolute;
+    transform: translateY(165px);
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    width: 1367px;
+    right: -37.5%;
+    height: 170px;
+    z-index: -1;
+}
+
+footer ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+footer ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+}

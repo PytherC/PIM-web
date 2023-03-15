@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body { min-height: 100vh; }
+
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#1b86dd), to(#034086)) no-repeat;
+    background: -moz-linear-gradient(left, #CCCCCC, #000000);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
+
+    
+}
+#menu-h ul li{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-h ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu-h ul li:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+#img01{
+    position: absolute;
+	right: 52%;
+	top: 27%
+}
+
+#img03{
+    position: absolute;
+    transform: translateY(1040px);
+    right: 71%
+}
+
+
+
+#img04{
+    position: absolute;
+    transform: translateY(1040px);
+    right: 41.7%
+}
+
+#img05{
+    position: absolute;
+    transform: translateY(1040px);
+    right: 13%
+}
+
+#img06{
+    position: absolute;
+    transform: translateY(1470px);
+    right: 6%
+}
+
+#img07{
+    position: absolute;
+    transform: translateY(1655px);
+    right: 66%
+}
+
+#img08{
+    position: absolute;
+    transform: translateY(1720px);
+    right: 38%
+}
+
+#img09{
+    position: absolute;
+    transform: translateY(1710px);
+    right: 8%;
+}
+
+#img10{
+    position: absolute;
+    right: 47%;
+    transform: translateY(2190px);
+}
+
+#img11{
+    position: absolute;
+    right: 0%;
+    transform: translateY(2750px);
+}
+
+.PosiçãoFirst{
+	position: absolute;
+	left: 55%;
+	transform: translateX(-60px);
+    color: rgb(0, 0, 0);
+	transform: translateY(180px);
+	background-color: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	}
+
+.PosiçãoTwo{
+    position: absolute;
+	text-align: center;
+    left: 7%;
+	transform: translateX(-60px);
+	transform: translateY(600px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:rgb(97, 96, 96)
+}
+.PosiçãoThree{
+    position: absolute;
+    left: 41%;
+	transform: translateX(-60px);
+	transform: translateY(750px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color:rgb(0, 0, 0); 
+}
+
+.PosiçãoFour{
+    position: absolute;
+	text-align: center;
+    right: 44%;
+	transform: translateX(-60px);
+	transform: translateY(880px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0); 
+}
+
+.PosiçãoFour02{
+    position: absolute;
+	text-align: center;
+    right: 11%;
+	transform: translateX(-60px);
+	transform: translateY(1140px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0)
+}
+
+.PosiçãoFive{
+    position: absolute;
+	text-align: center;
+    right: 77%;
+	transform: translateX(-60px);
+	transform: translateY(880px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0); 
+}
+
+.PosiçãoFive02{
+    position: absolute;
+	text-align: center;
+    right: 70%;
+	transform: translateX(-60px);
+	transform: translateY(1140px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0)
+}
+
+.PosiçãoSix{
+    position: absolute;
+	text-align: center;
+    right: 16%;
+	transform: translateX(-60px);
+	transform: translateY(880px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0); 
+}
+
+.PosiçãoSix02{
+    position: absolute;
+	text-align: center;
+    right: 40%;
+	transform: translateX(-60px);
+	transform: translateY(1140px);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+    color:rgb(0, 0, 0)
+}
+
+.btn-SaibaMaisA{
+    position: absolute;
+    right: 17%;
+    z-index: 1;
+    transform: translateY(1250px);
+    background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+	border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    transition: background .4s;
+}
+
+.btn-SaibaMaisA:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.btn-SaibaMaisB{
+    position: absolute;
+    right: 45.5%;
+    z-index: 1;
+    transform: translateY(1250px);
+    background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+	border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    transition: background .4s;
+}
+
+.btn-SaibaMaisB:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.btn-SaibaMaisC{
+    position: absolute;
+    right: 75%;
+    z-index: 1;
+    transform: translateY(1250px);
+    background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+	border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    transition: background .4s;
+}
+
+.btn-SaibaMaisC:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.btn-Simular{
+    position: absolute;
+    right: 27%;
+    margin-top: 29%;
+    background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+	border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    transition: background .4s;
+}
+
+.btn-Simular:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.Seguradora{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    font-size: 30px;
+    left: 12%;
+    transform: translateY(1370px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Seguradora02{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    left: 15%;
+    transform: translateY(1450px);
+    font-size: 20px;
+    
+}
+
+.PossoAjudar{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    font-size: 30px;
+    left: 37%;
+    transform: translateY(1890px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PossoAjudar02{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    left: 29%;
+    transform: translateY(1990px);
+    font-size: 20px;
+}
+
+.Duvidas{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    transform: translateY(2240px);
+    right: 45%;
+}
+
+.Duvidas02{
+    position: absolute;
+    color: rgb(97, 96, 96);
+    right: 48.5%;
+    transform: translateY(2200px);
+    font-size: 15px;
+}
+
+.btn-Contato{
+    position: absolute;
+	right: 46%;
+    transform: translateY(2280px);
+	background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	border-style: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px 1px;
+    width: 120px;
+    transition: background .4s;
+}
+
+.btn-Contato:hover{
+    background-color: rgb(218, 211, 211);  
+    color:rgb(14, 96, 204);  
+}
+
+.FundoA{
+    position: absolute;
+    transform: translateY(870px);
+    z-index: -1;
+    right: 67%;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 430px;
+    border-top-right-radius: 30px;
+    border: 2px solid rgb(104, 149, 207);;
+}
+
+.FundoB{
+    position: absolute;
+    transform: translateY(870px);
+    right: 38%;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 430px;
+    border-top-right-radius: 30px;
+    border: 2px solid rgb(104, 149, 207);;
+}
+
+.FundoC{
+    position: absolute;
+    transform: translateY(870px);
+    right: 9%;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 430px;
+    border-top-right-radius: 30px;
+    border: 2px solid rgb(104, 149, 207);
+}
+
+.FundoD{
+    position: absolute;
+    transform: translateY(2090px);
+    right: 46.5%;
+    color: rgb(255, 255, 255);
+    width: 110px;
+    height: 135px;
+    border-top-right-radius: 3px;
+    border: 2px solid rgb(104, 149, 207);
+}
+
+.FundoE{
+    position: absolute;
+    background-color: rgb(104, 149, 207);
+    color:rgb(255, 255, 255);
+    transform: translateY(580px);
+    right: 47%;
+    width: 100px;
+    height: 3px;
+    border-radius: 30px;
+}
+
+.FundoF{
+    position: absolute;
+    background-color: rgb(104, 149, 207);
+    color:rgb(255, 255, 255);
+    transform: translateY(820px);
+    right: 47%;
+    width: 100px;
+    height: 3px;
+    border-radius: 30px;
+}
+
+.FundoH{
+    position: absolute;
+    background-color: rgb(104, 149, 207);
+    color:rgb(255, 255, 255);
+    transform: translateY(1960px);
+    right: 47%;
+    width: 100px;
+    height: 3px;
+    border-radius: 30px;
+}
+
+.SeguroDeVida{
+    position: absolute;
+    right: 35%;
+    transform: translateY(35px);
+}
+
+
+.FundoSeguroDeVida{
+    position: absolute;
+    right: 44%;
+    background-color: rgb(104, 149, 207);
+    color:rgb(104, 149, 207);
+    width: 7px;
+    height: 25px;
+    border-radius: 1px;
+    transform: translateY(34px);
+}
+
+.SimuleSeuSeguro{
+    position: absolute;
+    right: 22%;
+    transform: translateY(365px);
+}
+
+  footer {
+    position: absolute;
+    transform: translateY(2400px);
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    width: 100%;
+    height: 170px;
+    z-index: -1;
+}
+
+footer ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+footer ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color:rgb(14, 96, 204);
+	color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-style: none;
+    font-size: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background .4s;
+}
+
+@media (min-width: 500px)  and (max-width:800px) {
+	#menu-h ul li{
+        font-size: 15px;
+        display: block;
+        padding: 10px;  
+	}
+   .FundoSeguroDeVida{
+        position: absolute;
+        transform: translateY(0px);
+		right: 73%;
+	}
+   .SeguroDeVida{
+        position: absolute;
+        transform: translateY(-10px);
+		font-size: 30px;
+        right: 29%;
+	}
+    #img01{
+		display: none;
+	}
+    #img02{
+        display: none;
+        }
+    #img03{
+        display: none;
+        }
+    #img03{
+        display: none;
+        }
+    #img04{
+        display: none;
+        }
+    #img05{
+        display: none;
+        }
+    #img06{
+        display: none;
+        }
+    #img07{
+        display: none;
+        }
+    #img08{
+        display: none;
+        }
+    #img09{
+        display: none;
+        }
+    #img10{
+        position: absolute;
+        transform: translateY(1615px);
+        right: 214px;
+        width: 75px;
+        height: 75px;
+        }
+    #img11{
+        display: none;
+        }
+    .PosiçãoFirst {
+        display: none;    
+        }
+    .btn-Simular {
+        position: absolute;
+        transform: translateY(12px); 
+        right: 33%; 
+        }
+    .SimuleSeuSeguro {
+        position: absolute;
+        transform: translateY(150px);
+        right: 21%;
+        }
+    .PosiçãoTwo {
+        position: absolute; 
+        transform: translateY(300px);  
+        font-size: 20px;
+        right: 9%;
+        }
+    .FundoA {
+        display: none;
+         }
+    .FundoB {
+        display: none;
+        }
+    .FundoC {
+        display: none;
+         }
+    .FundoD {
+        position: absolute;
+        transform: translateY(1500px);
+        right: 40%;
+        }
+    .FundoE {
+        position: absolute;
+        transform: translateY(300px);
+        right: 42%;
+        }
+    .PosiçãoThree {
+        position: absolute;
+        transform: translateY(550px);
+        right: 42%;
+        }
+    .FundoF {
+        position: absolute;
+        transform: translateY(640px);
+        right: 40%;
+        }
+    .PosiçãoFour {
+        position: absolute;
+        transform: translateY(690px);
+        right: 58%;
+        }
+    .PosiçãoFour02 {
+        position: absolute;
+        transform: translateY(730px);
+        right: 52%;
+        font-size: small;
+        }
+    .PosiçãoFive {
+        position: absolute;
+        transform: translateY(689px);
+        right: 20%;
+        }
+    .PosiçãoFive02 {
+        position: absolute;
+        transform: translateY(730px);
+        right: 7%;
+        font-size: small;
+        }
+    .PosiçãoSix {
+        position: absolute;
+        transform: translateY(850px);
+        right: 63%;
+        }
+    .PosiçãoSix02 {
+        position: absolute;
+        transform: translateY(890px);
+        right: 53%;
+        font-size: small;
+        }
+    .Seguradora {
+        position: absolute;
+        transform: translateY(1010px);
+        left: 170px;
+        }
+    .Seguradora02 {
+        position: absolute;
+        transform: translateY(1100px);
+        right: 10%;
+        }
+    .FundoH {
+        position: absolute;
+        transform: translateY(1070px);
+        right: 40%;
+        }
+    .PossoAjudar {
+        position: absolute;
+        transform: translateY(1330px);
+        left: 100px;
+        }
+    .PossoAjudar02 {
+        position: absolute;
+        transform: translateY(1400px);
+        left: 40px;
+        }
+    .Duvidas {
+        position: absolute;
+        transform: translateY(1660px);
+        left: 210px;
+        }
+    .Duvidas02 {
+        position: absolute;
+        transform: translateY(1600px);
+        left: 210px;
+        }
+    .btn-Contato {
+        position: absolute;
+        transform: translateY(1750px);
+        left: 180px;
+        }
+    .btn-SaibaMaisA {
+       display: none;
+        }
+    .btn-SaibaMaisB {
+        display: none;
+        }
+    .btn-SaibaMaisC {
+       display: none;
+        }
+    Footer{
+        transform: translateY(1840px);
+    }
+}
+
+ @media screen and (min-width: 1500px){
+    .btn-Simular {
+        position: absolute;
+        transform: translateY(-20px);
+        right: 28%;
+        font-size: 17px;
+         }
+      
+  }
