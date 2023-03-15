@@ -1,0 +1,29 @@
+nav{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 2px;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 2px;
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px;
+
+}
+
+.Texto{
+    text-align: center;
+}
+
+@media screen and (min-width: 1900px){
+    .Texto{
+        font-size: 100px;
+    }
+      
+  }
