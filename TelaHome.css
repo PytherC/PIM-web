@@ -1,687 +1,748 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
-body { min-height: 100vh; }
-
 *{
-    margin:0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#menu-h ul{
-    list-style: none;
-    padding: 0;
-    background: -webkit-gradient(linear, left top, right top, from(#1b86dd), to(#034086)) no-repeat;
-    background: -moz-linear-gradient(left, #CCCCCC, #000000);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
-
-    
-}
-#menu-h ul li{
-    color: white;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .4s;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#menu-h ul li a{
-    text-decoration: none;
-    color: white;
-}
-
-#menu-h ul li:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-#img01{
-    position: absolute;
-	right: 52%;
-	top: 27%
-}
-
-#img03{
-    position: absolute;
-    transform: translateY(1040px);
-    right: 71%
-}
-
-
-
-#img04{
-    position: absolute;
-    transform: translateY(1040px);
-    right: 41.7%
-}
-
-#img05{
-    position: absolute;
-    transform: translateY(1040px);
-    right: 13%
-}
-
-#img06{
-    position: absolute;
-    transform: translateY(1470px);
-    right: 6%
-}
-
-#img07{
-    position: absolute;
-    transform: translateY(1655px);
-    right: 66%
-}
-
-#img08{
-    position: absolute;
-    transform: translateY(1720px);
-    right: 38%
-}
-
-#img09{
-    position: absolute;
-    transform: translateY(1710px);
-    right: 8%;
-}
-
-#img10{
-    position: absolute;
-    right: 47%;
-    transform: translateY(2190px);
-}
-
-#img11{
-    position: absolute;
-    right: 0%;
-    transform: translateY(2750px);
-}
-
-.PosiçãoFirst{
-	position: absolute;
-	left: 55%;
-	transform: translateX(-60px);
-    color: rgb(0, 0, 0);
-	transform: translateY(180px);
-	background-color: rgb(255, 255, 255);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 50px;
-	}
-
-.PosiçãoTwo{
-    position: absolute;
-	text-align: center;
-    left: 7%;
-	transform: translateX(-60px);
-	transform: translateY(600px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-    color:rgb(97, 96, 96)
-}
-.PosiçãoThree{
-    position: absolute;
-    left: 41%;
-	transform: translateX(-60px);
-	transform: translateY(750px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-    color:rgb(0, 0, 0); 
-}
-
-.PosiçãoFour{
-    position: absolute;
-	text-align: center;
-    right: 44%;
-	transform: translateX(-60px);
-	transform: translateY(880px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0); 
-}
-
-.PosiçãoFour02{
-    position: absolute;
-	text-align: center;
-    right: 11%;
-	transform: translateX(-60px);
-	transform: translateY(1140px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0)
-}
-
-.PosiçãoFive{
-    position: absolute;
-	text-align: center;
-    right: 77%;
-	transform: translateX(-60px);
-	transform: translateY(880px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0); 
-}
-
-.PosiçãoFive02{
-    position: absolute;
-	text-align: center;
-    right: 70%;
-	transform: translateX(-60px);
-	transform: translateY(1140px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0)
-}
-
-.PosiçãoSix{
-    position: absolute;
-	text-align: center;
-    right: 16%;
-	transform: translateX(-60px);
-	transform: translateY(880px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0); 
-}
-
-.PosiçãoSix02{
-    position: absolute;
-	text-align: center;
-    right: 40%;
-	transform: translateX(-60px);
-	transform: translateY(1140px);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-    color:rgb(0, 0, 0)
-}
-
-.btn-SaibaMaisA{
-    position: absolute;
-    right: 17%;
-    z-index: 1;
-    transform: translateY(1250px);
-    background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-    border-radius: 3px;
-	border-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    width: 100px;
-    height: 25px;
-    transition: background .4s;
-}
-
-.btn-SaibaMaisA:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-.btn-SaibaMaisB{
-    position: absolute;
-    right: 45.5%;
-    z-index: 1;
-    transform: translateY(1250px);
-    background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-    border-radius: 3px;
-	border-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    width: 100px;
-    height: 25px;
-    transition: background .4s;
-}
-
-.btn-SaibaMaisB:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-.btn-SaibaMaisC{
-    position: absolute;
-    right: 75%;
-    z-index: 1;
-    transform: translateY(1250px);
-    background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-    border-radius: 3px;
-	border-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    width: 100px;
-    height: 25px;
-    transition: background .4s;
-}
-
-.btn-SaibaMaisC:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-.btn-Simular{
-    position: absolute;
-    right: 27%;
-    margin-top: 29%;
-    background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-    border-radius: 3px;
-	border-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    width: 100px;
-    transition: background .4s;
-}
-
-.btn-Simular:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-.Seguradora{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    font-size: 30px;
-    left: 12%;
-    transform: translateY(1370px);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Seguradora02{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    left: 15%;
-    transform: translateY(1450px);
-    font-size: 20px;
-    
-}
-
-.PossoAjudar{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    font-size: 30px;
-    left: 37%;
-    transform: translateY(1890px);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.PossoAjudar02{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    left: 29%;
-    transform: translateY(1990px);
-    font-size: 20px;
-}
-
-.Duvidas{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    transform: translateY(2240px);
-    right: 45%;
-}
-
-.Duvidas02{
-    position: absolute;
-    color: rgb(97, 96, 96);
-    right: 48.5%;
-    transform: translateY(2200px);
-    font-size: 15px;
-}
-
-.btn-Contato{
-    position: absolute;
-	right: 46%;
-    transform: translateY(2280px);
-	background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-	border-radius: 3px;
-	border-style: none;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1px 1px;
-    width: 120px;
-    transition: background .4s;
-}
-
-.btn-Contato:hover{
-    background-color: rgb(218, 211, 211);  
-    color:rgb(14, 96, 204);  
-}
-
-.FundoA{
-    position: absolute;
-    transform: translateY(870px);
-    z-index: -1;
-    right: 67%;
-    color: rgb(255, 255, 255);
-    width: 300px;
-    height: 430px;
-    border-top-right-radius: 30px;
-    border: 2px solid rgb(104, 149, 207);;
-}
-
-.FundoB{
-    position: absolute;
-    transform: translateY(870px);
-    right: 38%;
-    color: rgb(255, 255, 255);
-    width: 300px;
-    height: 430px;
-    border-top-right-radius: 30px;
-    border: 2px solid rgb(104, 149, 207);;
-}
-
-.FundoC{
-    position: absolute;
-    transform: translateY(870px);
-    right: 9%;
-    color: rgb(255, 255, 255);
-    width: 300px;
-    height: 430px;
-    border-top-right-radius: 30px;
-    border: 2px solid rgb(104, 149, 207);
-}
-
-.FundoD{
-    position: absolute;
-    transform: translateY(2090px);
-    right: 46.5%;
-    color: rgb(255, 255, 255);
-    width: 110px;
-    height: 135px;
-    border-top-right-radius: 3px;
-    border: 2px solid rgb(104, 149, 207);
-}
-
-.FundoE{
-    position: absolute;
-    background-color: rgb(104, 149, 207);
-    color:rgb(255, 255, 255);
-    transform: translateY(580px);
-    right: 47%;
-    width: 100px;
-    height: 3px;
-    border-radius: 30px;
-}
-
-.FundoF{
-    position: absolute;
-    background-color: rgb(104, 149, 207);
-    color:rgb(255, 255, 255);
-    transform: translateY(820px);
-    right: 47%;
-    width: 100px;
-    height: 3px;
-    border-radius: 30px;
-}
-
-.FundoH{
-    position: absolute;
-    background-color: rgb(104, 149, 207);
-    color:rgb(255, 255, 255);
-    transform: translateY(1960px);
-    right: 47%;
-    width: 100px;
-    height: 3px;
-    border-radius: 30px;
-}
-
-.SeguroDeVida{
-    position: absolute;
-    right: 35%;
-    transform: translateY(35px);
-}
-
-
-.FundoSeguroDeVida{
-    position: absolute;
-    right: 44%;
-    background-color: rgb(104, 149, 207);
-    color:rgb(104, 149, 207);
-    width: 7px;
-    height: 25px;
-    border-radius: 1px;
-    transform: translateY(34px);
-}
-
-.SimuleSeuSeguro{
-    position: absolute;
-    right: 22%;
-    transform: translateY(365px);
-}
-
-  footer {
-    position: absolute;
-    transform: translateY(2400px);
-    background-color: rgb(0, 0, 0);
-    color: #FFF;
-    width: 100%;
-    height: 170px;
-    z-index: -1;
-}
-
-footer ul{
-    text-decoration: none;
-    list-style: none;
-    
-}
-
-footer ul a{
-    text-decoration: none;
-    list-style: none;
-    color: #FFF;
-}
-
-#back-to-top {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    background-color:rgb(14, 96, 204);
-	color: rgb(255, 255, 255);
-    border-radius: 3px;
-    border-style: none;
-    font-size: 15px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: background .4s;
-}
-
-@media (min-width: 500px)  and (max-width:800px) {
-	#menu-h ul li{
-        font-size: 15px;
-        display: block;
-        padding: 10px;  
-	}
-   .FundoSeguroDeVida{
-        position: absolute;
-        transform: translateY(0px);
-		right: 73%;
-	}
-   .SeguroDeVida{
-        position: absolute;
-        transform: translateY(-10px);
-		font-size: 30px;
-        right: 29%;
-	}
-    #img01{
-		display: none;
-	}
-    #img02{
-        display: none;
-        }
-    #img03{
-        display: none;
-        }
-    #img03{
-        display: none;
-        }
-    #img04{
-        display: none;
-        }
-    #img05{
-        display: none;
-        }
-    #img06{
-        display: none;
-        }
-    #img07{
-        display: none;
-        }
-    #img08{
-        display: none;
-        }
-    #img09{
-        display: none;
-        }
-    #img10{
-        position: absolute;
-        transform: translateY(1615px);
-        right: 214px;
-        width: 75px;
-        height: 75px;
-        }
-    #img11{
-        display: none;
-        }
-    .PosiçãoFirst {
-        display: none;    
-        }
-    .btn-Simular {
-        position: absolute;
-        transform: translateY(12px); 
-        right: 33%; 
-        }
-    .SimuleSeuSeguro {
-        position: absolute;
-        transform: translateY(150px);
-        right: 21%;
-        }
-    .PosiçãoTwo {
-        position: absolute; 
-        transform: translateY(300px);  
-        font-size: 20px;
-        right: 9%;
-        }
-    .FundoA {
-        display: none;
-         }
-    .FundoB {
-        display: none;
-        }
-    .FundoC {
-        display: none;
-         }
-    .FundoD {
-        position: absolute;
-        transform: translateY(1500px);
-        right: 40%;
-        }
-    .FundoE {
-        position: absolute;
-        transform: translateY(300px);
-        right: 42%;
-        }
-    .PosiçãoThree {
-        position: absolute;
-        transform: translateY(550px);
-        right: 42%;
-        }
-    .FundoF {
-        position: absolute;
-        transform: translateY(640px);
-        right: 40%;
-        }
-    .PosiçãoFour {
-        position: absolute;
-        transform: translateY(690px);
-        right: 58%;
-        }
-    .PosiçãoFour02 {
-        position: absolute;
-        transform: translateY(730px);
-        right: 52%;
-        font-size: small;
-        }
-    .PosiçãoFive {
-        position: absolute;
-        transform: translateY(689px);
-        right: 20%;
-        }
-    .PosiçãoFive02 {
-        position: absolute;
-        transform: translateY(730px);
-        right: 7%;
-        font-size: small;
-        }
-    .PosiçãoSix {
-        position: absolute;
-        transform: translateY(850px);
-        right: 63%;
-        }
-    .PosiçãoSix02 {
-        position: absolute;
-        transform: translateY(890px);
-        right: 53%;
-        font-size: small;
-        }
-    .Seguradora {
-        position: absolute;
-        transform: translateY(1010px);
-        left: 170px;
-        }
-    .Seguradora02 {
-        position: absolute;
-        transform: translateY(1100px);
-        right: 10%;
-        }
-    .FundoH {
-        position: absolute;
-        transform: translateY(1070px);
-        right: 40%;
-        }
-    .PossoAjudar {
-        position: absolute;
-        transform: translateY(1330px);
-        left: 100px;
-        }
-    .PossoAjudar02 {
-        position: absolute;
-        transform: translateY(1400px);
-        left: 40px;
-        }
-    .Duvidas {
-        position: absolute;
-        transform: translateY(1660px);
-        left: 210px;
-        }
-    .Duvidas02 {
-        position: absolute;
-        transform: translateY(1600px);
-        left: 210px;
-        }
-    .btn-Contato {
-        position: absolute;
-        transform: translateY(1750px);
-        left: 180px;
-        }
-    .btn-SaibaMaisA {
-       display: none;
-        }
-    .btn-SaibaMaisB {
-        display: none;
-        }
-    .btn-SaibaMaisC {
-       display: none;
-        }
-    Footer{
-        transform: translateY(1840px);
-    }
-}
-
- @media screen and (min-width: 1500px){
-    .btn-Simular {
-        position: absolute;
-        transform: translateY(-20px);
-        right: 28%;
-        font-size: 17px;
-         }
-      
+    margin:0;
   }
+  
+  body {
+      margin: 0px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*ESTILO GERAIS*/
+
+.logo{
+    position: absolute;
+    left: 0px;
+    top: -5px;
+}
+
+.menu-nav-mobile-menu{
+    display: none;
+}
+
+.menu-nav-li{
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+    background-color: #3e92d6;
+    font-size: 1.2rem;
+    gap: 15px;
+    position: relative;
+}
+
+.menu-nav-li a{
+    padding: 10px;
+    color: #fff;
+    transition: .3s;
+}
+
+.menu-nav-li a:hover{
+    background-color: #fff;
+    color: #3e92d6;
+    transition: .3s;
+    border-radius: 30px;
+}
+
+.apresentacao{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.seguro{
+    font-size: 1rem;
+    position: relative;
+    right: -25px;
+}
+
+.seguro::before {
+    content: "";
+    width: 6px;
+    right: 510px;
+    height: 21px;
+    position: absolute;
+    background-color: #3e92d6;
+  }
+
+.frase{
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.textoapresentacao{
+    grid-column: 2;
+    margin-top: 50px;
+}
+
+.posbotao{
+    margin-top: 60px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.btnservicos{
+    display: inline-block;
+    color: #fff;
+    background-color: #3e92d6;
+    padding: 10px 21px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    transition: background .2s;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btnservicos:hover{
+    background-color: #8ec4f0;
+    color: #6e6d6d;
+    transition: .2s;
+    transform: scale(1.1); 
+}
+
+.linkcontato:hover{
+    color: #8ec4f0;
+    transition: .2s;
+}
+
+.nossos-servicos{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+    background-color: #3e92d6;
+    height: 750px;
+}
+
+.servicos-titulo{
+    grid-column: 1;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.servico-morte{
+    grid-column: 1;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -120px;
+}
+
+.servico-invalidez{
+    grid-column: 2;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -120px;
+}
+
+.servico-doencas-graves{
+    grid-column: 3;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -120px;
+}
+
+.morte{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.invalidez{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.doencas{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.texto-morte{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.texto-invalidez{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.texto-doencas{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.img-morte{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.img-invalidez{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.img-doencas{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.seguradoras{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -40px;
+    height: 750px;
+}
+
+.seguradoras-titulo{
+    grid-column: 1;
+    text-align: center;
+    color: #000000;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.texto-seguros{
+    grid-column: 1/-1;
+    color: #000000;
+    z-index: 5;
+    margin-top: -65px;
+}
+
+.bradesco-seguros{
+    position: relative;
+    grid-column: 1;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -80px;
+    height: 420px;
+}
+
+.porto-seguros{
+    position: relative;
+    grid-column: 2;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -80px;
+    height: 420px;
+}
+
+.caixa-seguros{
+    position: relative;
+    grid-column: 3;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    height: 420px;
+    margin-top: -80px;
+    height: 420px;
+}
+
+.btncontrate-bradesco{
+    position: absolute;
+    color: #fff;
+    background-color: #3e92d6;
+    padding: 6px 17px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    transition: background .2s;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 320px;
+    right: 84px;
+}
+
+.btncontrate-bradesco:hover{
+    background-color: #8ec4f0;
+    color: #6e6d6d;
+    transition: .2s;
+    transform: scale(1.1); 
+}
+
+.btncontrate-porto{
+    position: absolute;
+    color: #fff;
+    background-color: #3e92d6;
+    padding: 6px 17px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    transition: background .2s;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 320px;
+    right: 84px;
+}
+
+.btncontrate-porto:hover{
+    background-color: #8ec4f0;
+    color: #6e6d6d;
+    transition: .2s;
+    transform: scale(1.1); 
+}
+
+.btncontrate-caixa{
+    position: absolute;
+    color: #fff;
+    background-color: #3e92d6;
+    padding: 6px 17px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 10px;
+    transition: background .2s;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 320px;
+    right: 84px;
+}
+
+.btncontrate-caixa:hover{
+    background-color: #8ec4f0;
+    color: #6e6d6d;
+    transition: .2s;
+    transform: scale(1.1); 
+}
+
+.bradesco{
+    margin: 10px;
+}
+
+.porto{
+    margin: 10px;
+}
+
+.caixa{
+    margin: 10px;
+}
+
+.img-bradesco{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.img-porto{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.img-caixa{
+    margin-top: 65px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 400px)  and (max-width:500px) {
+
+    a{
+        color: #ffffff;
+    }
+    
+    .menu-nav-li{
+        display: none;
+    }
+    
+    .logo{
+        position: absolute;
+        left: -20px;
+        top: -20px;
+    }
+    
+    .menu-nav-mobile-menu{
+        display: block;
+    }
+    
+    .menu-mobile{
+        z-index: 3;
+        display: block;
+        position: fixed;
+        font-family: 'Great Vibes';
+        font-size: 1.1rem;
+        padding: 5px;
+        top: 50px;
+        right: 70px;
+        background-color: transparent;
+        opacity: 0;
+        visibility: hidden;
+        transform: translate3d(60px, 0px, 0px);
+        transition: .3s;
+        color: #000000;
+        background-color: #3e92d6;
+        border-radius: 6px;
+        }
+      
+      .menu-mobile a:hover{
+        color: #000000;
+        transition: transform 0.3s ease-in-out;
+        transition: .2s;
+      }
+      
+      .menu-mobile.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translate3d(60px, 0px, 0px);
+        z-index: 3;
+      }
+      
+      .mobile-btn{
+        display: block;
+        cursor: pointer;
+        color: #3e92d6;
+        width: 36px;
+        height: 36px;
+        right: -10px;
+        top: -10px;
+        border-top: 4px solid;
+        margin: 20px 20px 0 0;
+        float: left;
+        position: relative;
+        position: fixed;
+        z-index: 3;
+      }
+      
+      .mobile-btn::after , .mobile-btn::before{
+        content: "";
+        display: block;
+        height: 4px;
+        margin-top: 6px;
+        background: currentColor;
+        position: relative;
+        transition: transform .3s ease;
+      }
+      
+      .mobile-btn.active{
+        border-top-color: transparent;
+      }
+      
+      .mobile-btn.active::after{
+        margin-top: 0px;
+        top: 2px;
+        transform: rotate(45deg);
+      }
+      
+      .mobile-btn.active::before{
+        margin-top: 0px;
+        top: 6px;
+        transform: rotate(135deg);
+      }
+
+      .apresentacao{
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    
+    .seguro{
+        font-size: 1rem;
+        position: relative;
+        right: 130px;
+        text-align: center;
+        margin-top: 170px;
+    }
+    
+    .seguro::before {
+        content: "";
+        width: 6px;
+        right: 260px;
+        height: 21px;
+        position: absolute;
+        background-color: #3e92d6;
+      }
+    
+    .frase{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    
+    .textoapresentacao{
+        grid-column: 1;
+        margin-top: 50px;
+        grid-row: 1;
+    }
+
+    .familia{
+        display: none;
+    }
+
+    .ou{
+        display: none;
+    }
+
+    .posbotao{
+        margin-top: 30px;
+    }
+
+    .nossos-servicos{
+        margin-top: 90px;
+        grid-template-columns: 300px;
+        height: 1600px;
+    }
+
+    .servico-morte{
+        grid-column: 1;
+        margin-top: 5px;
+    }
+    
+    .servico-invalidez{
+        grid-column: 1;
+        margin-top: -25px;
+    }
+    
+    .servico-doencas-graves{
+        grid-column: 1;
+        margin-top: -25px;
+    }
+
+    .seguradoras{
+        display: grid;
+        grid-template-columns: 300px;
+    }
+
+    .bradesco-seguros{
+        grid-column: 1;
+        margin-top: 0px;
+    }
+    
+    .porto-seguros{
+        grid-column: 1;
+        margin-top: 0px;
+    }
+
+    .caixa-seguros{
+        grid-column: 1;
+        margin-top: 0px;
+    }
+
+    .seguradoras-titulo{
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 65px;
+    }
+    
+    .texto-seguros{
+        color: #000000;
+        margin-top: -20px;
+       text-align: center;    
+    }
+
+    
+    
+}
+
+@media (min-width: 501px)  and (max-width:600px) {
+
+a{
+    color: #ffffff;
+}
+
+.menu-nav-li{
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.menu-nav-mobile-menu{
+    display: block;
+}
+
+.menu-mobile{
+    z-index: 3;
+    display: block;
+    position: fixed;
+    font-family: 'Great Vibes';
+    font-size: 1.1rem;
+    padding: 5px;
+    top: 50px;
+    right: 70px;
+    background-color: transparent;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(60px, 0px, 0px);
+    transition: .3s;
+    color: #000000;
+    background-color: #3e92d6;
+    border-radius: 6px;
+    }
+  
+  .menu-mobile a:hover{
+    color: #000000;
+    transition: transform 0.3s ease-in-out;
+    transition: .2s;
+  }
+  
+  .menu-mobile.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(60px, 0px, 0px);
+    z-index: 3;
+  }
+  
+  .mobile-btn{
+    display: block;
+    cursor: pointer;
+    color: #3e92d6;
+    width: 36px;
+    height: 36px;
+    right: -10px;
+    top: -10px;
+    border-top: 4px solid;
+    margin: 20px 20px 0 0;
+    float: left;
+    position: relative;
+    position: fixed;
+    z-index: 3;
+  }
+  
+  .mobile-btn::after , .mobile-btn::before{
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .3s ease;
+  }
+  
+  .mobile-btn.active{
+    border-top-color: transparent;
+  }
+  
+  .mobile-btn.active::after{
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  
+  .mobile-btn.active::before{
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
+  }
+
+  .apresentacao{
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.seguro{
+    font-size: 1rem;
+    position: relative;
+    right: 130px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.seguro::before {
+    content: "";
+    width: 6px;
+    right: 260px;
+    height: 21px;
+    position: absolute;
+    background-color: #3e92d6;
+  }
+
+.frase{
+    font-size: 2rem;
+}
+
+.textoapresentacao{
+    grid-column: 1;
+    margin-top: 50px;
+    grid-row: 1;
+}
+
+.familia{
+    display: none;
+}
+
+.ou{
+    display: none;
+}
+
+.posbotao{
+    margin-top: 30px;
+}
+
+.nossos-servicos{
+    margin-top: 90px;
+    grid-template-columns: 300px;
+    height: 1600px;
+}
+
+.servico-morte{
+    grid-column: 1;
+    margin-top: 5px;
+}
+
+.servico-invalidez{
+    grid-column: 1;
+    margin-top: -25px;
+}
+
+.servico-doencas-graves{
+    grid-column: 1;
+    margin-top: -25px;
+}
+
+.seguradoras{
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.bradesco-seguros{
+    grid-column: 1;
+    margin-top: 0px;
+}
+
+.porto-seguros{
+    grid-column: 1;
+    margin-top: 0px;
+}
+
+.caixa-seguros{
+    grid-column: 1;
+    margin-top: 0px;
+}
+
+.seguradoras-titulo{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 65px;
+}
+
+.texto-seguros{
+    color: #000000;
+    margin-top: -20px;
+   text-align: center;    
+}
+
+}
