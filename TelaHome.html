@@ -11,236 +11,105 @@
 
 </head>
 <body>
+    <script src="jquery/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="TelaHome.js"></script>
+ 
+<header>
 
-<nav id="menu-h">
+    <nav class="menu-nav">
+        <ul class="menu-nav-li">
+            <img class="logo" src="/img01/Logo.png" width="100px" height="100px" alt="logo">   
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+            <li class="cliente"><a href="#">Area do cliente</a></li>
+        </ul>
+    </nav>
 
-    <ul>
-        <li><a href="TelaHome.html">Home</a></li>
-        <li><a href="TelaContato.html">Contato</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="TelaLogin.html">Area do cliente</a></li>
-    </ul>
+    <nav class="menu-nav-mobile-menu">
+        <span class="mobile-btn"></span>
+        <ul class="menu-mobile">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Area do cliente</a></li>
+        </ul>
 
-</nav>
+        <img class="logo" src="/img01/Logo.png" width="100px" height="100px" alt="logo"> 
 
-<div class="ImagemFirst">
-    <img src="Familia02.png" width="500" height="400" id="img01">
-</div>
+    </nav>
 
-<div class="ImagemThree">
-    <img src="Invalidez01.png" width="170" height="170" id="img03">
-</div>
+ </header>
 
-<div class="ImagemFour">
-    <img src="DoençaGenetica01.png" width="170" height="170" id="img04">
-</div>
+ <main>
 
-<div class="ImagemFive">
-    <img src="MorteAcidental01.png" width="170" height="170" id="img05">
-</div>
+<div class="apresentacao">
 
-<div class="ImagemSix">
-    <a href="https://conveniodesaude.com.br/bradescosaude/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU6nK0wC3Cc_Ud4R1aX4Si04HkFBRz2jyNYA6cFJ79JSSyQ_uruk4iBoCbA8QAvD_BwE"> <img src="BradescoSeguros.png" width="400" height="300" id="img06"></a>
-</div>
+    <div class="familia">
+    <img src="/img01/Familia.png" width="500px" height="500px" alt="logo">
+     </div>
 
-<div class="ImagemSeven">
-    <a href="https://www.portosegurocorretores.com.br/seguro_de_vida/m_l_calatayud_corretag/landign_page_vida_mlc/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU4PfRoCCXEsvPsYcJF3TMQ-LNQ0GUozLcll68pRIO7N-z57f8MDB6xoCMNAQAvD_BwE"> <img src="PortoSeguros.png" width="430" height="300" id="img07"></a>
-</div>
+    <div class="textoapresentacao">
+    <p class="seguro">Seguro de vida</p>
+    <h2 class="frase"><b>AQUI NA DREAM LIFE SUA SEGURANÇA É O QUE IMPORTA</b></h2>
+    
+    <div class="posbotao">
+    <p><a class="btnservicos" href="#"> Veja nosso serviços</a></p>
+    <p class="ou">ou</p>
+    <a class="linkcontato" href="#">Entre em contato conosco</a>
+     </div>
 
-<div class="ImagemEight">
-    <a href="https://www.caixavidaeprevidencia.com.br/segurodevida"> <img src="CaixaSeguradora.png" width="350" height="175" id="img08"></a>
-</div>
-
-<div class="ImagemNine">
-<a href="https://portal.sulamericaseguros.com.br/home.htm"> <img src="SulAmericaSeguros.png" width="300" height="200" id="img09"></a>
-</div>
-
-<div class="ImagemTen">
-    <img src="Telefone.png" width="100" height="100" id="img10">
-</div>
-
-
-
-<div class="SimuleSeuSeguro">
-
-    Simule já o seu seguro de vida conosco!
+    </div>
 
 </div>
 
-<div class="PosiçãoFirst">
+<div class="nossos-servicos">
+    <h1 class="servicos-titulo">Nosso serviços</h1>
 
-    <h2><b>AQUI NA DREAM LIFE</b></h2><h1><b>SUA SEGURANÇA</b> <br/> <b>É O QUE IMPORTA.</b></h1>
+    <div class="servico-morte">
+    <p class="morte"><b>MORTE</b></p>
+    <img class="img-morte" src="/img01/morte.png" width="200px" height="200px" alt="morte">
+    <p class="texto-morte"> Receba o valor do seguro caso seja diagnosticado com doenças graves (Cardiovasculares, Câncer, etc)</p>
+     </div>
+
+     <div class="servico-invalidez">
+        <p class="invalidez"><b>INVALIDEZ</b></p>
+        <img class="img-invalidez" src="/img01/invalidez.png" width="200px" height="200px" alt="invalidez">
+        <p class="texto-invalidez"> Para um acidente ou doença que cause a perda parcial ou total dos movimentos de membros e funcionamento dos orgãos.</p>
+         </div>
+
+         <div class="servico-doencas-graves">
+            <p class="doencas"><b>DOENÇAS GRAVES</b></p>
+            <img class="img-doencas" src="/img01/Doenca.png" width="200px" height="200px" alt="doencas">
+            <p class="texto-doencas"> Se voce vier a faltar por conta de um acidente ou doença, a pessoa no qual colocou como beneficário, receberá o valor contratato.</p>
+             </div>
 </div>
 
-<div class="btn-Simular">
-    <a href="TelaSimular.html"><button type="button" class="btn-Simular">Simular</button></a>
-</div>
+<div class="seguradoras">
+    <h1 class="seguradoras-titulo">Seguradoras</h1>
+    <p class="texto-seguros">Trabalhamos com as melhores seguradoras do mercado</p>
 
-<div class="PosiçãoTwo">
-    <h2>Por que adquirir um Seguro de vida?</h2>
-    <br>
-    <br>
-    Porque imprevistos podem acontecer. <br> <b>Ofereça à sua família a garantia de uma proteção </b> capaz de cobrir as despesas necessárias e imediatas em um evento adverso
-</div>
+    <div class="bradesco-seguros">
+    <p class="bradesco"><b>Bradesco Seguros</b></p>
+    <img class="img-bradesco" src="/img01/bradesco.png" width="200px" height="200px" alt="bradesco seguros">
+    <a class="btncontrate-bradesco" href="#"> Contrate agora </a>
+     </div>
 
-<br>
-<br>
-<br>
-<br>
+     <div class="porto-seguros">
+        <p class="porto"><b>Porto Seguros</b></p>
+        <img class="img-porto" src="/img01/porto.png" width="250px" height="200px" alt="porto seguros">
+        <a class="btncontrate-porto" href="#"> Contrate agora </a>
+         </div>
 
-<div class="PosiçãoThree">
-    <h2>Nossos serviços</h2>
-</div>
-
-<div class="PosiçãoFour">
-    <b>Doenças hereditarias</b>
-</div>
-
-<div class="PosiçãoFour02">
-    Se voce vier a faltar por conta
-    <br>
-    de um acidente ou doença, a pessoa 
-    <br> 
-    no qual colocou como beneficário, 
-    <br>
-    receberá o valor contratato.
-</div>
-
-<div class="PosiçãoFive">
-    <b>Invalidez</b>
-</div>
-
-<div class="PosiçãoFive02">
-    Para um acidente ou doença que
-    <br> 
-    cause a perda parcial ou total
-    <br>
-    dos movimentos de membros e
-    <br>
-    funcionamento dos orgãos.
-</div>
-
-<div class="PosiçãoSix">
-    <b>Morte acidental</b>
-</div>
-
-<div class="PosiçãoSix02">
-    Receba o valor do seguro caso seja
-    <br>
-    diagnosticado com doenças graves
-    <br>
-    ( Cardiovasculares, Câncer, etc)
-</div>
-
-<div class="Seguradora">
-    <h2>Seguradoras</h2>
-</div>
-
-<div class="Seguradora02">
-    Nós da Dream Life, trabalhamos 
-    com as melhores seguradoras 
-    <br>
-    do mercado, para assim, transformar sua experencia 
-    <br>
-    a melhor possível!
+         <div class="caixa-seguros">
+            <p class="caixa"><b>Caixa Seguros</b></p>
+            <img class="img-caixa" src="/img01/caixa.png" width="140px" height="160px" alt="caixa seguros">
+            <a class="btncontrate-caixa" href="#"> Contrate agora </a>
+             </div>
 </div>
 
 
-<div class="PossoAjudar">
-<h2>Como podemos ajudar?</h2>
-</div>
+ </main>
 
-<div class="PossoAjudar02">
-    Em casos de dúvidas, escolha a opção abaixo para falar conosco!
-</div>
-
-<div class="Duvidas">
-    Em caso de dúvidas
-</div>
-
-<div class="Duvidas02">
-   <b>Contato</b> 
-</div>
-
-<div class="BotaoContato">
-    <a href="#"><button type="button" class="btn-Contato">Contato</button></a>
-
-</div>
-
-<div class="BotaoSaibaMaisA">
-    <a href="#"><button type="button" class="btn-SaibaMaisA">Saiba mais</button></a>
-
-</div>
-
-<div class="BotaoSaibaMaisB">
-    <a href="#"><button type="button" class="btn-SaibaMaisB">Saiba mais</button></a>
-
-</div>
-
-<div class="BotaoSaibaMaisC">
-    <a href="#"><button type="button" class="btn-SaibaMaisC">Saiba mais</button></a>
-
-</div>
-
-<div class="FundoA">
-    .
-</div>
-
-<div class="FundoB">
-    .
-</div>
-
-<div class="FundoC">
-    .
-</div>
-
-<div class="FundoD">
-     .
-</div>
-
-<div class="FundoE">
-    .
-</div>
-
-<div class="FundoF">
-    .
-</div>
-
-<div class="FundoH">
-    .
-</div>
-
-<div class="SeguroDeVida">
-    Seguro de Vida
-</div>
-
-<div class="FundoSeguroDeVida">
-    .
-</div>
-
-<button id="back-to-top">Voltar ao topo </button>
-
-<script>
-
-var btn = document.querySelector("#back-to-top");
-btn.addEventListener("click", function() {
-    window.scrollTo(0, 0);
-});
-
-    </script>
-
-<footer>
-<ul>
-    <br>
-    <li><b>Links rápidos</b></li>
-    <br>
-    <li><a href="#">Termos de uso  ></a></li>
-    <li><a href="#">LGPD - Lei Geral de Proteção de Dados  ></a></li>
-    <li><a href="#">Saiba mais  ></a></li>
-</ul>
-
-</footer>
-
-</div>
 </body>
 </html>
